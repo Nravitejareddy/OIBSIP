@@ -1,0 +1,105 @@
+/* Reset and general styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background-color: #000; color: #fff; height: 100vh; overflow-y: scroll; scroll-behavior: smooth; }
+.slides-container { scroll-snap-type: y mandatory; overflow-y: scroll; height: 100vh; }
+.slide { scroll-snap-align: start; width: 100%; height: 100vh; position: relative; }
+
+/* Hero */
+.hero img { width: 100%; height: 100%; object-fit: cover; }
+.overlay { position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); text-align:center; background: rgba(0,0,0,0.6); padding:35px 60px; border-radius:14px; }
+.overlay h1 { font-family: 'Playfair Display', serif; font-size: 56px; letter-spacing: 3px; }
+.overlay p { font-size: 20px; font-style: italic; }
+
+/* Sections */
+.section { display: flex; align-items:center; gap:40px; padding:80px 10%; background-color:#000; color:#fff; }
+.section img { width:45%; border-radius:12px; }
+.content { width:55%; }
+.reverse { flex-direction: row-reverse; }
+.content h2 { margin-bottom:15px; font-size:32px; }
+.content p { margin-bottom:12px; line-height:1.6; }
+.quote { font-style: italic; opacity:0.8; }
+
+/* Full image */
+.full-image img { width:100%; height:100%; object-fit:cover; }
+
+/* Slide 4 vertical overlay with concise 2-line content */
+.experiments-overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px; /* equal spacing */
+    height: 75%;
+    width: 70%;
+}
+
+.exp-box {
+    background: rgba(0,0,0,0.7);
+    padding: 25px;
+    border-radius: 14px;
+    color: #fff;
+}
+
+.exp-box h3 { font-size: 22px; margin-bottom: 10px; }
+.exp-box p { font-size: 15px; line-height:1.5; }
+
+/* Slide 5 - Two images top with spacing */
+.two-images-top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px; /* space above top images */
+}
+
+.top-images {
+    display: flex;
+    height: 50vh;
+    gap: 10px; /* small gap between images */
+}
+
+.top-images img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.dual-content { display:flex; height:50vh; background:#000; color:#fff; }
+.text-box { width:50%; padding:40px 8%; }
+
+/* Slide 6 - Final overlay */
+.final-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    padding: 30px 50px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.final-overlay h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+/* Down arrow */
+.down-arrow {
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    width:20px;
+    height:20px;
+    border-left:4px solid white;
+    border-bottom:4px solid white;
+    transform: translateX(-50%) rotate(-45deg);
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%,100% { transform: translateX(-50%) rotate(-45deg) translateY(0); }
+    50% { transform: translateX(-50%) rotate(-45deg) translateY(10px); }
+}
