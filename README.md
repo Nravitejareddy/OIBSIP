@@ -59,3 +59,19 @@ It supports basic mathematical operations such as:
 
 ## ▶ How to Run
 Simply open `index.html` in your browser.
+
+# 🎯 Level 2 – Task 01: Tribute Page
+
+## 📌 Description
+A simple and visually appealing **tribute page** created using **HTML and CSS** for a person of admiration.
+
+## 🛠 Features
+- Clean and responsive layout  
+- Images and descriptive text  
+- Custom fonts and background colors  
+- Proper use of headings and paragraphs  
+
+## ▶ How to Run
+Open `index.html` in any modern web browser.
+
+
