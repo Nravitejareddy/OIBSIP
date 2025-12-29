@@ -91,4 +91,42 @@ A basic **To-Do List Web App** that allows users to manage daily tasks efficient
 ## ▶ How to Run
 Open `index.html` in your browser.
 
+## 🎯 Level 2 – Task 03: Login Authentication System
+
+### 📌 Description
+A simple **login and registration authentication system** that allows users to:
+- Register an account
+- Login with credentials
+- Access a secured dashboard page
+
+### 🛠 Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+
+### ▶ How to Run
+1. **Start the Server**
+   - Open **Command Prompt** (or Terminal)
+   - Navigate to your project folder (where `server.js` is)
+   - Run the command:
+     ```bash
+     node server.js
+     ```
+   - You should see:
+     ```text
+     Server running at http://localhost:3000
+     ```
+
+2. **Access the Project**
+   - Open a web browser
+   - Go to:
+     ```text
+     http://localhost:3000/index.html
+     ```
+   - This opens the login page on your **local server**
+
+✅ You can now **register, login, and access the dashboard**.
+
 
