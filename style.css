@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #4285F4;
+}
+
+.calculator {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 350px;
+}
+
+.display {
+  background-color: #D5E9FF;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  min-height: 70px;
+}
+
+.display .input {
+  text-align: left;
+  font-size: 16px;
+  color: #628AB5;
+  min-height: 20px;
+}
+
+.display .result {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0C1A32;
+  min-height: 30px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  color: #0C1A32;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+/* Numeric buttons: very light blue */
+button.num {
+  background-color: #E3F0FF;
+}
+
+button.num:hover {
+  background-color: #CFE6FF;
+}
+
+/* Function buttons: slightly darker blue */
+button.func {
+  background-color: #9CCBFE;
+}
+
+button.func:hover {
+  background-color: #82B8F7;
+}
+
+/* ENTER button */
+button.enter {
+  grid-column: span 2;
+  background-color: #5FA1F3;
+  color: #FFFFFF;
+}
+
+/* Optional: zero button span */
+button.zero {
+  grid-column: span 1;
+}
+
+/* Button active highlight */
+button.active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
