@@ -41,7 +41,7 @@ OASIS-INFOBYTE/
 │
 └── README.md
 ```
-# 🎯 Task 1 – Task 01: Calculator
+# 🎯 Level 2 – Task 01: Calculator
 
 ## 📌 Description
 A fully functional calculator built using **HTML, CSS, and JavaScript**.  
@@ -60,7 +60,7 @@ It supports basic mathematical operations such as:
 ## ▶ How to Run
 Simply open `index.html` in your browser.
 
-# 🎯 Level 2 – Task 01: Tribute Page
+# 🎯 Level 2 – Task 02: Tribute Page
 
 ## 📌 Description
 A simple and visually appealing **tribute page** created using **HTML and CSS** for a person of admiration.
@@ -73,5 +73,22 @@ A simple and visually appealing **tribute page** created using **HTML and CSS** 
 
 ## ▶ How to Run
 Open `index.html` in any modern web browser.
+
+# 🎯 Level 2 – Task 03: To-Do Web Application
+
+## 📌 Description
+A basic **To-Do List Web App** that allows users to manage daily tasks efficiently.
+
+## 🛠 Features
+- Add new tasks  
+- Mark tasks as **Completed**  
+- Separate sections for:
+  - Pending Tasks
+  - Completed Tasks  
+- Edit or delete tasks  
+- Optional date & time tracking  
+
+## ▶ How to Run
+Open `index.html` in your browser.
 
 
