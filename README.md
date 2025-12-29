@@ -1,4 +1,4 @@
-# 🌐 AICTE OASIS INFOBYTE – Web Development & Designing Internship Tasks
+# 🌐 AICTE OASIS INFOBYTE – Web Development & Designing Internship
 
 This repository contains all the tasks completed as part of the  
 **AICTE OASIS INFOBYTE – Web Development & Designing Internship Program**.
