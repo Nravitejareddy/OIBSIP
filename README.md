@@ -91,7 +91,7 @@ A basic **To-Do List Web App** that allows users to manage daily tasks efficient
 ## ▶ How to Run
 Open `index.html` in your browser.
 
-## 🎯 Level 2 – Task 03: Login Authentication System
+## 🎯 Level 2 – Task 04: Login Authentication System
 
 ### 📌 Description
 A simple **login and registration authentication system** that allows users to:
