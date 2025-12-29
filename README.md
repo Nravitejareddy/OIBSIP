@@ -41,7 +41,7 @@ OASIS-INFOBYTE/
 │
 └── README.md
 ```
-# 🎯 Level 1 – Task 01: Calculator
+# 🎯 Task 1 – Task 01: Calculator
 
 ## 📌 Description
 A fully functional calculator built using **HTML, CSS, and JavaScript**.  
