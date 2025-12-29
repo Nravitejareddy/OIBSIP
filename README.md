@@ -41,3 +41,21 @@ OASIS-INFOBYTE/
 │
 └── README.md
 ```
+# 🎯 Level 1 – Task 01: Calculator
+
+## 📌 Description
+A fully functional calculator built using **HTML, CSS, and JavaScript**.  
+It supports basic mathematical operations such as:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+## 🛠 Features
+- Interactive user interface  
+- Display screen for inputs and results  
+- CSS Grid layout for button alignment  
+- JavaScript event handling and logic  
+
+## ▶ How to Run
+Simply open `index.html` in your browser.
