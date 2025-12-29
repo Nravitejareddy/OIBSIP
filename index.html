@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- White Top Header -->
+  <div class="header">
+    <h1>To-Do List Web App</h1>
+  </div>
+
+  <!-- Main Container -->
+  <div class="main-container">
+
+    <!-- Left Card: Add Task -->
+    <div class="card add-card">
+      <input type="text" id="title" placeholder="Title" />
+      <span id="error">⚠ Please fill out this field.</span>
+
+      <textarea id="description" placeholder="Description"></textarea>
+
+      <button onclick="addTask()">Save</button>
+    </div>
+
+    <!-- Right Side (NO WHITE CARD) -->
+    <div class="task-section">
+
+      <!-- Header Text -->
+      <div class="task-header">
+        <span>Title</span>
+        <span>Description</span>
+        <span>Del</span>
+      </div>
+
+      <!-- Divider Line -->
+      <div class="header-line"></div>
+
+      <div id="taskList"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

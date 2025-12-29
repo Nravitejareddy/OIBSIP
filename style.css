@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f4c5c, #0b7285);
+}
+
+/* Header */
+.header {
+  background: white;
+  padding: 15px 30px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* Main Layout */
+.main-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* Left Card */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 20px;
+}
+
+.add-card {
+  width: 300px;
+}
+
+.add-card input,
+.add-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-card textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Error Bubble */
+#error {
+  display: none;
+  background: #ffeb99;
+  color: #333;
+  padding: 6px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Save Button */
+.add-card button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+.add-card button:hover {
+  background: #218838;
+}
+
+/* Right Section */
+.task-section {
+  flex: 1;
+}
+
+/* Header Text */
+.task-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 80px; /* Adjusted last column width */
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+/* Divider Line */
+.header-line {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 8px 0 15px 0;
+}
+
+/* Task Item Box */
+.task-item {
+  background: white;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 80px; /* Same as header */
+  align-items: center;
+}
+
+/* Task Title */
+.task-title {
+  font-weight: bold;
+}
+
+/* Task Description */
+.task-desc {
+  color: #555;
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  justify-self: start; /* Move it closer to Description */
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
