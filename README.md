@@ -129,4 +129,14 @@ A simple **login and registration authentication system** that allows users to:
 
 ✅ You can now **register, login, and access the dashboard**.
 
+# 🖥 Execution Mode
+- All projects are **Web-based**  
+- No frameworks like React or Angular are used  
+- Runs on any modern web browser  
+- Authentication task runs on a **local Node.js server**  
+
+## 👤 Author
+**N. Ravi Teja Reddy**  
+Web Development Intern – AICTE OASIS INFOBYTE
+
 
