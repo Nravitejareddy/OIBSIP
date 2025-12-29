@@ -1,7 +1,7 @@
-# 🌐 AICTE OASIS INFOBYTE – Web Development & Designing Internship
+# 🌐 OASIS INFOBYTE – Web Development & Designing Internship
 
 This repository contains all the tasks completed as part of the  
-**AICTE OASIS INFOBYTE – Web Development & Designing Internship Program**.
+**OASIS INFOBYTE – Web Development & Designing Internship Program**.
 
 All projects are **web-based applications** built using **HTML, CSS, JavaScript**, and **Node.js** (for authentication).
 
@@ -58,7 +58,9 @@ It supports basic mathematical operations such as:
 - JavaScript event handling and logic  
 
 ## ▶ How to Run
-Simply open `index.html` in your browser.
+Open `index.html` in your browser.
+
+---
 
 # 🎯 Level 2 – Task 02: Tribute Page
 
@@ -72,71 +74,56 @@ A simple and visually appealing **tribute page** created using **HTML and CSS** 
 - Proper use of headings and paragraphs  
 
 ## ▶ How to Run
-Open `index.html` in any modern web browser.
-
-# 🎯 Level 2 – Task 03: To-Do Web Application
-
-## 📌 Description
-A basic **To-Do List Web App** that allows users to manage daily tasks efficiently.
-
-## 🛠 Features
-- Add new tasks  
-- Mark tasks as **Completed**  
-- Separate sections for:
-  - Pending Tasks
-  - Completed Tasks  
-- Edit or delete tasks  
-- Optional date & time tracking  
-
-## ▶ How to Run
 Open `index.html` in your browser.
 
-## 🎯 Level 2 – Task 04: Login Authentication System
+---
 
-### 📌 Description
+# 🎯 Level 2 – Task 04: Login Authentication System
+
+## 📌 Description
 A simple **login and registration authentication system** that allows users to:
-- Register an account
-- Login with credentials
-- Access a secured dashboard page
+- Register an account  
+- Login with credentials  
+- Access a secured dashboard page  
 
-### 🛠 Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Node.js
-- Express.js
+## 🛠 Technologies Used
+- HTML  
+- CSS  
+- JavaScript  
+- Node.js  
+- Express.js  
 
-### ▶ How to Run
-1. **Start the Server**
-   - Open **Command Prompt** (or Terminal)
-   - Navigate to your project folder (where `server.js` is)
-   - Run the command:
-     ```bash
-     node server.js
-     ```
-   - You should see:
-     ```text
-     Server running at http://localhost:3000
-     ```
+## ▶ How to Run
 
-2. **Access the Project**
-   - Open a web browser
-   - Go to:
-     ```text
-     http://localhost:3000/index.html
-     ```
-   - This opens the login page on your **local server**
+### 1. Start the Server
+1. Open **Command Prompt** (or Terminal).  
+2. Navigate to your project folder (where `server.js` is located).  
+3. Run the following command:
+```bash
+node server.js
+```
+```bash
+Server running at http://localhost:3000
+```
+## 2. Access the Project
+1. Open a web browser.
+2. Go to:  
+```bash
+http://localhost:3000/index.html
+```
+This opens the login page on your local server.  
+✅ You can now register, login, and access the dashboard.
 
-✅ You can now **register, login, and access the dashboard**.
-
-# 🖥 Execution Mode
-- All projects are **Web-based**  
-- No frameworks like React or Angular are used  
-- Runs on any modern web browser  
-- Authentication task runs on a **local Node.js server**  
+## 🖥 Execution Mode
+- All projects are Web-based
+- No frameworks like React or Angular are used
+- Runs on any modern web browser
+- Authentication task runs on a local Node.js server
 
 ## 👤 Author
 **N. Ravi Teja Reddy**  
-Web Development Intern – AICTE OASIS INFOBYTE
+Web Development Intern – OASIS INFOBYTE
+
+
 
 
