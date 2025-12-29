@@ -77,7 +77,24 @@ A simple and visually appealing **tribute page** created using **HTML and CSS** 
 Open `index.html` in your browser.
 
 ---
+# 🎯 Level 2 – Task 03: To-Do Web Application
 
+## 📌 Description
+A basic **To-Do List Web App** that allows users to manage daily tasks efficiently.
+
+## 🛠 Features
+- Add new tasks  
+- Mark tasks as **Completed**  
+- Separate sections for:
+  - Pending Tasks
+  - Completed Tasks  
+- Edit or delete tasks  
+- Optional date & time tracking  
+
+## ▶ How to Run
+Open `index.html` in your browser.
+
+---
 # 🎯 Level 2 – Task 04: Login Authentication System
 
 ## 📌 Description
