@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Login Page – Muted Blue */
+.login-bg {
+  background-color: #b6c8f0;
+}
+
+/* Register Page – Muted Green */
+.register-bg {
+  background-color: #b7dccc;
+}
+
+/* Dashboard Page – Muted Purple */
+.dashboard-bg {
+  background-color: #c1b6e8;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 330px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #43a047;
+}
+
+p {
+  margin-top: 15px;
+}
+
+a {
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 14px;
+}
